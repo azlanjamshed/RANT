@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+.font-libre {
+    font-family: 'Libre Baskerville', serif;
+}
+
+body {
+    background: #1f2937
+}
+
