@@ -1,6 +1,6 @@
 import React from "react";
 import Posts from "../post.js";
-import PostCard from "../component/PostCard.jsx"; // Ensure this path is correct
+import PostCard from "../component/PostCard.jsx"; 
 
 const Post = () => {
   return (
