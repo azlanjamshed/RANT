@@ -4,12 +4,13 @@ import { BrowserRouter } from "react-router";
 import "./index.css";
 import App from "./App.jsx";
 import { ToastContainer } from "react-toastify";
+import PostContext from "./context/PostContext.jsx";
 
 createRoot(document.getElementById("root")).render(
-  <StrictMode>
+  <PostContext>
     <BrowserRouter>
       <App />
       <ToastContainer />
     </BrowserRouter>
-  </StrictMode>
+  </PostContext>
 );
